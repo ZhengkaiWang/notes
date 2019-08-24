@@ -1,4 +1,4 @@
-'''
+```
 # generate ssh key
 ssh-kengen -t rsa -C "Zhengkai.z.wang@gmail.com" -f ~/.ssh/id_rsa_sth
 ssh-agent zsh
@@ -21,3 +21,4 @@ cat ~/.ssh/id_rsa_sth.pub >> authorized_keys
 git config --global user.name "ZK"
 git config --global user.email "Zhengkai.Z.Wang@gmail.com"
 git config --global core.editor emacs
+```
