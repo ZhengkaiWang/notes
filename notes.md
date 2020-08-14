@@ -1,6 +1,6 @@
 ```
 # generate ssh key
-ssh-kengen -t rsa -C "Zhengkai.z.wang@gmail.com" -f ~/.ssh/id_rsa_sth
+ssh-keygen -t rsa -C "Zhengkai.z.wang@gmail.com" -f ~/.ssh/id_rsa_sth
 ssh-agent zsh
 ssh-add ~/.ssh/id_rsa_sth
 scp ~/.ssh/id_rsa_sth.pub target_ip_address:~/.ssh
